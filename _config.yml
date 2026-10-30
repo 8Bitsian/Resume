@@ -1,4 +1,4 @@
-# Theme
+# Jekyll Theme
 remote_theme: pages-theme/cayman@latest
 
 # Site Configuration
@@ -8,12 +8,36 @@ description: "A breif description of your website."
 url: "https://8bitsian.github.io"
 baseurl: "/8BitSoftware.github.io"
 
+# Preferences
+preferences:
+  - homepage:
+      emabled: false
+  - search:
+      emabled: true
+  - backlinks:
+      emabled: true
+  - pagepreview:
+      emabled: true
+  - wiki_style_link:
+      emabled: true
+
 # Defaults
 defaults:
   - scope:
-      path: "/pages/index.md"
-  - values:
-      permalink: /
+      path: ""
+      type: "notes"
+    values:
+      layout: "Post"
+      content-type: "notes"
+      feed: "show"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "Post"
+      content-type: "post"
+      feed: "show"
+      permalink: /blog/:title/
 
 # Menu Items
 menu:
@@ -44,5 +68,19 @@ titles_from_headings:
   strip_title: false
   collections: false
 
+# Include in Jekyll processing
 include:
   - docs
+
+# MathJax
+katex: true
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
