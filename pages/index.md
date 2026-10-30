@@ -21,8 +21,8 @@ You can find out more about it's development in the [Projects]() page.
 ## Skills
 
 | Section | Technologies |
-| :---: | :--- |
-| **Tools** | Git, GitHub, Linux, Windows, UNIX Shell, PowerShell</br> Geany, Visual Studio Code, JetBrains Suite |
+| ---: | :--- |
+| **Tools** | Git, GitHub, Linux, Windows, UNIX Shell, PowerShell, Geany, Visual Studio Code, JetBrains Suite |
 | **Languages** | Python, Java, JavaScript, PHP, Rust, C++, C# |
 | **Frameworks** | Qt, JavaFX, Spring Boot |
 | **Frontend** | HTML, CSS, QSS, Markdown |
