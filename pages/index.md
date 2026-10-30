@@ -5,7 +5,8 @@ permalink: /
 ---
 
 # Imani Hollie
-**Full Stack Jr. Software Developer** • Atlanta, Georgia</br>
+**Full Stack Jr. Software Developer** • Atlanta, Georgia
+
 [Email](mailto:you@example.com) · [LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username)
 
 ## Summary
@@ -18,6 +19,7 @@ I stream and upload my progress on the development via [Twitch]() and [YouTube](
 You can find out more about it's development in the [Projects]() page.
 
 ## Skills
+
 | Section | Technologies |
 | :---: | :--- |
 | **Tools** | Git, GitHub, Linux, Windows, UNIX Shell, PowerShell</br> Geany, Visual Studio Code, JetBrains Suite |
