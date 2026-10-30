@@ -1,1 +1,22 @@
 /* Main style sheet */
+nav {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f2f2f2;
+}
+
+nav a {
+  color: #174ea6;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
