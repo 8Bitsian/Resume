@@ -1,6 +1,11 @@
+# Site Configuration: Basic details about the website.
 title: "8BitSoftware"
 heading: "Imani Hollie"
 description: "I code sometimes and talkabout my recent projects."
 url: "https://8bitsian.github.io"
 baseruel: "/8BitSoftware.github.io"
 markdown: kramdown
+
+# Footer Config: Give details about the website.
+footer:
+  copyright: "© 2026 Imani Hollie | Contents under CC-BY-NC"
