@@ -1,3 +1,27 @@
+# Site Configuration
+title: "Your Site Title"
+heading: "Your Name"
+description: "A breif description of your website."
+url: "https://yoursite.com"
+baseurl: ""
+
+# Menu Items
+menu:
+  - title: "About"
+    url: "/about"
+  - title: "Projects"
+    url: "/projects"
+  - title: "Development"
+    url: "/devlog"
+
+# Footer
+footer:
+  copyright: "© 2026 Imani Hollie | Contents under CC-BY-NC "
+  credits:
+    enabled: true
+    url: "/credits"
+    text: "Credits"
+
 # Plugins
 plugins:
   - jekyll-titles-from-headings
