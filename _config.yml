@@ -1,0 +1,13 @@
+# Plugins
+plugins:
+  - jekyll-titles-from-headings
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-feed
+  - jekyll-youtube
+
+# Configuration
+titles_from_headings:
+  enabled:     true
+  strip_title: false
+  collections: false
