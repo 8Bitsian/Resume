@@ -1,5 +1,1 @@
----
-layout: Post
-permalink: /
-title: Home Page
----
+# Home Page
