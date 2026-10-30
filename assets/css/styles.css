@@ -3,11 +3,11 @@ nav {
   display: flex;
   gap: 1rem;
   padding: 1rem;
-  background: #f2f2f2;
+  background: #424B54;
 }
 
 nav a {
-  color: #174ea6;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -19,4 +19,5 @@ main {
   max-width: 800px;
   margin: 2rem auto;
   padding: 0 1rem;
+  background: #FFFFFF;
 }
