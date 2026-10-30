@@ -1,3 +1,6 @@
+# Theme
+remote_theme: pages-theme/cayman@latest
+
 # Site Configuration
 title: "Your Site Title"
 heading: "Your Name"
@@ -24,7 +27,7 @@ footer:
 
 # Plugins
 plugins:
-  - jekyll-titles-from-headings
+  - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-archives
   - jekyll-feed
