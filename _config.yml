@@ -1,2 +1,6 @@
 title: My Website
 markdown: kramdown
+
+pages/
+  index.md
+  about.md
