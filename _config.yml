@@ -5,6 +5,7 @@ description: "I code sometimes and talkabout my recent projects."
 url: "https://8bitsian.github.io"
 baseruel: "/8BitSoftware.github.io"
 markdown: kramdown
+stylesheet: /assets/css/styles.css
 
 # Footer Config: Give details about the website.
 footer:
