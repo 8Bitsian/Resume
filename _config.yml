@@ -11,18 +11,18 @@ baseurl: "/8BitSoftware.github.io"
 # Defaults
 defaults:
   - scope:
-    path: "docs/pages/index.md"
+      path: "/pages/index.md"
   - values:
-    - permalink: /
+      permalink: /
 
 # Menu Items
 menu:
   - title: "About"
-    url: "/about/"
+    url: "/about"
   - title: "Projects"
-    url: "/projects/"
+    url: "/projects"
   - title: "Development"
-    url: "/devlog/"
+    url: "/devlog"
 
 # Footer
 footer:
