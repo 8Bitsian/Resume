@@ -22,13 +22,13 @@ You can find out more about it's development in the [Projects]() page.
 
 | Section | Technologies |
 | ---: | :--- |
-| **Tools** | Git, GitHub, Linux, Windows, UNIX Shell, PowerShell, Geany, Visual Studio Code, JetBrains Suite |
-| **Languages** | Python, Java, JavaScript, PHP, Rust, C++, C# |
-| **Frameworks** | Qt, JavaFX, Spring Boot |
-| **Frontend** | HTML, CSS, QSS, Markdown |
-| **Backend** | Flask, FastAPI, REST APIs |
-| **Databases** | MySQL, SQLite, PostgreSQL, MongoDB |
-| **Testing** | PyTest,JUnit, Postman |
+| **Tools** |  • Git, GitHub, Linux, Windows, UNIX Shell, PowerShell, Geany, Visual Studio Code, JetBrains Suite |
+| **Languages** |  • Python, Java, JavaScript, PHP, Rust, C++, C# |
+| **Frameworks** |  • Qt, JavaFX, Spring Boot |
+| **Frontend** |  • HTML, CSS, QSS, Markdown |
+| **Backend** |  • Flask, FastAPI, REST APIs |
+| **Databases** |  • MySQL, SQLite, PostgreSQL, MongoDB |
+| **Testing** |  • PyTest,JUnit, Postman |
 
 ## Experience
 
