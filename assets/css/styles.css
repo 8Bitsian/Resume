@@ -55,7 +55,7 @@ h1, h2, h3 {
 
 h1 {
   border-bottom: 4px solid var(--sandy);
-  passing-bottom: 0.5rem
+  padding-bottom: 0.5rem;
 }
 
 a {
@@ -72,6 +72,30 @@ a:focus-visible {
 
 strong {
   color: var(--verdigris);
+}
+
+/* Footer */
+.site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  padding: 1rem;
+  background: var(--black);
+  color: var(--white);
+  text-align: center;
+}
+
+.site-footer a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.site-footer a:hover,
+.site-footer a:focus-visible {
+  color: var(--sandy);
+  text-decoration: underline;
 }
 
 /* Make content comfortable on small screens */
