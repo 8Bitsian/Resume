@@ -21,7 +21,7 @@ body {
 }
 
 /* Navigation Bar */
-nav {
+.site-navbar {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -30,13 +30,13 @@ nav {
   background: var(--black);
 }
 
-nav a {
+.site-navbar a {
   color: var(--white);
   text-decoration: none;
 }
 
-nav a:hover,
-nav a:focus-visible {
+.site-navbar a:hover,
+.site-navbar a:focus-visible {
   text-decoration: underline;
   color: var(--sandy);
 }
