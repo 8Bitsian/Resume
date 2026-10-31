@@ -3,7 +3,7 @@ layout: post
 title: "Update on My Switch to Linux"
 date: 2026-10-31
 location: "Atlanta, Georgia"
-description: "My review of Linux Mint on various devices and the differences between Cinnamon and XCFE Editions."
+description: "My review of Linux Mint Cinnamon and XCFE Edition on various devices."
 tags: [linux, linux_mint, XFCE, cinnamon, operating_systems]
 ---
 
