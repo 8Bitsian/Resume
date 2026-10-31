@@ -4,18 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} | {{ site.title }}</title>
-    <link rel="icon" type="image/svg+xml" href="{{ '/assets/img/favicon.ico' | relative_url }}">
+    <link rel="icon" href="{{ '/assets/img/favicon.ico' | relative_url }}">
     <link rel="stylesheet" href="{{ site.stylesheet | relative_url }}">
   </head>
-  <nav>
-    {% include nav.html %}
-  </nav>
   <body>
+    <nav>
+      {% include nav.html %}
+    </nav>
     <main>
       {{ content }}
     </main>
+    <footer>
+      {% include footer.html %}
+    </footer>
   </body>
-  <footer>
-    {% include footer.html %}
-  </footer>
 </html>
