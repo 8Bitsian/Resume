@@ -7,6 +7,17 @@ permalink: /
 # Imani Hollie
 **Full Stack Software Developer** • Atlanta, Georgia
 
-[Email](mailto:8BitSoftware@gmail.com) · [LinkedIn](https://www.linkedin.com/in/imani-hollie/) · [GitHub](https://github.com/8Bitsian) · [Stack Overflow](https://stackoverflow.com/users/32219858/8bitsoftware)
+I build practical, user-focused applications while continuing to grow as a developer. Explore my projects, reach my technical writing, or get in touch for collaboration opportunities.
 
-I am a full stack developer who likes to build practical, user-first application while continuing to grow as a developer.
+## Featured Projects
+### Open Sky • 
+A weather forecast desktop application built with Python, PyQt6, and QSS, with [OpenWeatherMap API](https://openweathermap.org/) integration.
+
+[Browse all projects]({{ '/projects/' | relative_url }})
+
+## Featured Articles
+
+[Browse all articles]({{ '/blog/' | relative_url }})
+
+## Let's Connect
+Interest in my work or want to discuss an opportunity? [Get in touch]({{ '/contact/' | relative_url }}).
