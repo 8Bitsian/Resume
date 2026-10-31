@@ -1,13 +1,16 @@
 <aside class="post-archive" aria-label="Post archive">
-  <h2>Archive</h2>
+  <h2>Article Archive</h2>
 
-  {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
-  {% for year_group in posts_by_year %}
-    <section class="archive-year">
-      <h3>{{ year_group.name }}</h3>
+  {% assign posts_by_month = site.posts | group_by_exp: "post", "post.date | date: '%b %Y'" %}
+  
+  {% for month_group in posts_by_month %}
+    <section class="archive-month">
+      <h3>{{ month_group.name }}</h3>
       <ul>
-        {% for post in year_group.items %}
+        {% for post in month_group.items %}
           <li>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            
             <p class="post-meta">
               <time datetime="{{ post.date | date_to_xmlschema }}">
                 {{ post.date | date: "%A, %B %-d, %Y" }}
@@ -15,7 +18,7 @@
               {% if post.location %} • {{ post.location }}{% endif %}
             </p>
 
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <p>{{ post.description | default: post.excerpt | strip_html | strip_newlines | truncate: 120 }}</p>
 
             {% if post.tags.size > 0 %}
               <p class="post-tags">
@@ -24,8 +27,7 @@
                 {% endfor %}
               </p>
             {% endif %}
-
-            <p>{{ post.description | default: post.excerpt | strip_html | strip_newlines | truncate: 120 }}</p>
+            
           </li>
         {% endfor %}
       </ul>
