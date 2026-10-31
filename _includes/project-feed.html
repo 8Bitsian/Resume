@@ -2,10 +2,12 @@
   <h2>Projects</h2>
 
   {% assign projects = site.devlogs | sort: "start_date" | reverse %}
+  {% assign latest = projects | first %}
+
   {% if projects.size > 0 %}
-    <ul>
+    <div class="project-feed-list">
       {% for project in projects %}
-        <li>
+        <article class="project-feed-card">
           <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
 
           <p class="post-meta">
@@ -17,7 +19,9 @@
             {% else %}
               – Present
             {% endif %}
-            {% if project.location %} · {{ project.location }}{% endif %}
+            {% if project.repo %}
+              <p><a href="{{ project.repo }}">· View GitHub Repository</a></p>
+            {% endif %}
           </p>
 
           <p>{{ project.description | strip_html | truncate: 180 }}</p>
@@ -25,13 +29,13 @@
           {% if project.tags.size > 0 %}
             <p class="post-tags">
               {% for tag in project.tags %}
-                <span>#{{ tag | replace: "-", "_" }}</span>{% unless forloop.last %}, {% endunless %}
+                <span>#{{ tag | replace: "-", " " }}</span>{% unless forloop.last %}, {% endunless %}
               {% endfor %}
             </p>
           {% endif %}
-        </li>
+        </article>
       {% endfor %}
-    </ul>
+    </div>
   {% else %}
     <p>No projects yet.</p>
   {% endif %}
