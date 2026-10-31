@@ -8,6 +8,8 @@ layout: default
     {% assign latest = site.posts | first %}
     {% if latest %}
       <article>
+        <h2><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a></h2>
+        
         <p class="post-meta">
           <time datetime="{{ latest.date | date_to_xmlschema }}">
             {{latest.date | date: "%A, %B %-d, %Y" }}
@@ -15,7 +17,7 @@ layout: default
           {% if latest.location %} • {{ latest.location }}{% endif %}
         </p>
         
-        <h2><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a></h2>
+        <p>{{ latest.description | default: latest.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
 
         {% if latest.tags.size > 0 %}
           <p class="post-tags">
@@ -24,10 +26,6 @@ layout: default
             {% endfor %}
           </p>
         {% endif %}
-
-        <p>{{ latest.description | default: latest.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
-        
-        <a href="{{ latest.url | relative_url }}">Read the latest post</a>
       </article>
     {% else %}
       <p>No posts yet. Check back soon.</p>
