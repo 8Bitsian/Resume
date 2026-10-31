@@ -1,0 +1,15 @@
+.latest-post-card {
+  padding: 1.5rem;
+  background: #f3e7d9; /* warm tint based on your sandy color */
+  border-left: 6px solid var(--sandy);
+  border-radius: 0.5rem;
+}
+
+.latest-post-card h3 {
+  margin-top: 0.25rem;
+}
+
+.latest-post-card .post-meta,
+.latest-post-card .post-tags {
+  margin-bottom: 0.5rem;
+}
