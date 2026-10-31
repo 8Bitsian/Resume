@@ -3,7 +3,7 @@ layout: post
 title: "Building a Software Developer Portfolio"
 date: 2026-10-31
 location: "Atlanta, Georgia"
-description: "Notes on planning and building a developer portfolio."
+description: "My experience with planning and building a developer portfolio for an upcoming job fair."
 tags: [web_development, career_fair, resume, portfolio]
 ---
 
