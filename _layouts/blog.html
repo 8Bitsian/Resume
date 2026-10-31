@@ -5,10 +5,11 @@ layout: default
   <section class="latest-post">
     <h1>{{ page.title }}</h1>
 
+    <h2>Latest</h2>
     {% assign latest = site.posts | first %}
     {% if latest %}
       <article>
-        <h2><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a></h2>
+        <h3><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a></h3>
         
         <p class="post-meta">
           <time datetime="{{ latest.date | date_to_xmlschema }}">
