@@ -1,0 +1,33 @@
+.latest-devlog-card,
+.project-feed-card {
+  padding: 1.5rem;
+  background: #f3e7d9;
+  border-left: 6px solid var(--sandy);
+  border-radius: 0.5rem;
+  margin-block: 1rem;
+}
+
+.latest-devlog-card h3,
+.project-feed-card h3 {
+  margin-top: 0.25rem;
+}
+
+.post-meta,
+.post-tags {
+  margin-bottom: 0.5rem;
+}
+
+.project-feed-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.project-archive ul {
+  list-style: none;
+  padding: 0;
+}
+
+.project-archive li {
+  padding-block: 1rem;
+  border-bottom: 1px solid #ddd;
+}
