@@ -4,7 +4,7 @@ title: "Update on My Switch to Linux"
 date: 2026-10-31
 location: "Atlanta, Georgia"
 description: "My review of Linux Mint Cinnamon and XCFE Edition on various devices."
-tags: [linux, linux_mint, XFCE, cinnamon, operating_systems]
+tags: [Linux, Linux_Mint, XFCE, Cinnamon, Operating_Systems]
 ---
 
 I recently switched my main HP desktop over from Windows 11 to Linux Mint Cinnamon Edition, and have to say that I am impressed by the considerable upgrade in quality of user expereince I have had using this Linux Distro.

@@ -4,7 +4,7 @@ title: "My Switch to Linux Mint"
 date: 2026-07-28
 location: "Atlanta, Georgia"
 description: "My experience with switching from Windows 11 to Linux Mint OS XFCE Edition."
-tags: [linux, linux_mint, XFCE, operating_systems]
+tags: [Linux, Linux_Mint, XFCE, Operating_Systems]
 ---
 
 I have an old HP 14-dq0000dx model laptop that originally ran Windows 11 that I got from Amazon to supplement my most basic needs while I'm in school. I'm talking browser and coding only because, while it has 32GB of RAM, it only has 64GB eMMC of memory that's not upgradable. Currently, I am supplementing with an SD card with 128GB of storage space for any files that I need to work with and it's been able to serve it's purpose so far without become e-waste.
