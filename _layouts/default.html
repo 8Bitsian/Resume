@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="{{ site.stylesheet | relative_url }}">
     {% if page.layout == "blog" %}
       <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
+    {% elif page.layout == "resume" %}
+      <link rel="stylesheet" href="{{ '/assets/css/resume.css' | relative_url }}">
     {% endif %}
   </head>
   <body>
