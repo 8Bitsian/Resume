@@ -6,6 +6,9 @@
     <title>{{ page.title }} | {{ site.title }}</title>
     <link rel="icon" href="{{ '/assets/img/favicon.ico' | relative_url }}">
     <link rel="stylesheet" href="{{ site.stylesheet | relative_url }}">
+    {% if page.layout == "blog" %}
+      <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
+    {% endif %}
   </head>
   <body>
     <nav>
