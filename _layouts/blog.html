@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<article class="blog-layout">
+  <section class="latest-post">
+    <h1>{{ page.title }}</h1>
+
+    {% assign latest = site.posts | first %}
+    {% if latest %}
+      <article>
+        <p class="post-meta">
+          <time datetime="{{ latest.date | date_to_xmlschema }}">
+            {{latest.date | date: "%A, %B %-d, %Y" }}
+          </time>
+          {% if latest.location %} • {{ latest.location }}{% endif %}
+        </p>
+        
+        <h2><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a></h2>
+
+        {% if latest.tags.size > 0 %}
+          <p class="post-tags">
+            {% for tag in latest.tags %}
+              #{{ tag }}{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          </p>
+        {% endif %}
+
+        <p>{{ latest.description | default: latest.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
+        
+        <a href="{{ latest.url | relative_url }}">Read the latest post</a>
+      </article>
+    {% else %}
+      <p>No posts yet. Check back soon.</p>
+    {% endif %}
+  </section>
+
+  {% include feed.html %}
+</article>
