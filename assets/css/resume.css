@@ -1,0 +1,17 @@
+.cv-download {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.35rem 0.65rem;
+  border: 2px solid var(--verdigris);
+  border-radius: 0.35rem;
+  font-size: 0.85rem;
+  font-weight: normal;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.cv-download:hover,
+.cv-download:focus-visible {
+  background: var(--verdigris);
+  color: var(--white);
+}
