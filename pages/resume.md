@@ -15,7 +15,7 @@ permalink: /resume/
 Early-career software developer with experience building desktop applications and working with multiple languages for both front end and back end development. Familiar with Linux and Windows desktop environments, Git-based workflows, Microsoft Visual Studio and JetBrains Suite IDEs, and technical documentation. Currently developing [OpenSky]({{ '/projects/' | relative_url }}), a weather forecast application built with Python, PyQt6, and QSS and includes OpenWeatherMap API integration.
 
 ## Skills
-I am most comfortable using the JetBrains Suite in Python, Java, and C++.
+I am most comfortable using the JetBrains Suite in Python, Java, and C++. I use Git and GitHub for version control and am comfortable working in both Linux and Windows development environments.
 
 | Area | • | Technologies |
 | ---: | :---: | :--- |
