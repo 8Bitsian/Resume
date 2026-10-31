@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: New Software Developer Portfolio
 date: 2026-10-31
 tags: [web_development, career_fair, resume, portfolio, website, showcase, technical_writing, blog]
