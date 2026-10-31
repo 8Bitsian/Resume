@@ -7,28 +7,25 @@ permalink: /resume/
 # Imani Hollie
 **Full Stack Jr. Software Developer** • Atlanta, Georgia • <a class="cv-download" href="{{ '/assets/files/temp.txt' | relative_url }}"> Download CV (PDF)</a>
 
+<a class="cv-download" href="{{ '/assets/files/temp.txt' | relative_url }}"> Download CV (PDF)</a>
+
 [Email](mailto:8BitSoftware@gmail.com) · [LinkedIn](https://www.linkedin.com/in/imani-hollie/) · [GitHub](https://github.com/8Bitsian) · [Stack Overflow](https://stackoverflow.com/users/32219858/8bitsoftware)
 
 ## Summary
-Early-career software developer familiar with building desktop applications in Linux environments.
-Has experience in both Microsoft Visual Studio and JetBrains IDEs alongside Git and GitHub Desktop for version control.
-Documentation is made with Markdown files in Obsidian.
-
-Currently I am working on [OpenSky](), which is a weather forecast desktop application built with Python, PyQt6, and QSS and includes OpenWeatherMap API integration.
-I stream and upload my progress on the development via [Twitch]() and [YouTube]().
-You can find out more about it's development in the [Projects]() page.
+Early-career software developer with experience building desktop applications and working with multiple languages for both front end and back end development. Familiar with Linux and Windows desktop environments, Git-based workflows, Microsoft Visual Studio and JetBrains Suite IDEs, and technical documentation. Currently developing [OpenSky]({{ '/projects/' | relative_url }}), a weather forecast application built with Python, PyQt6, and QSS and includes OpenWeatherMap API integration.
 
 ## Skills
+I am most comfortable using the JetBrains Suite in Python, Java, and C++.
 
-| Section | Technologies |
-| ---: | :--- |
-| **Tools** |  • Git, GitHub, Linux, Windows, UNIX Shell, PowerShell, Geany, Visual Studio Code, JetBrains Suite |
-| **Languages** |  • Python, Java, JavaScript, PHP, Rust, C++, C# |
-| **Frameworks** |  • Qt, JavaFX, Spring Boot |
-| **Frontend** |  • HTML, CSS, QSS, Markdown |
-| **Backend** |  • Flask, FastAPI, REST APIs |
-| **Databases** |  • MySQL, SQLite, PostgreSQL, MongoDB |
-| **Testing** |  • PyTest,JUnit, Postman |
+| Area | • | Technologies |
+| ---: | :---: | :--- |
+| **Environments** | • | Linux, Windows, UNIX Shell, PowerShell |
+| **Tools** | • | Git, GitHub, Geany, Visual Studio Code, JetBrains Suite |
+| **Languages** | • | Python, Java, JavaScript, PHP, Rust, C++, C# |
+| **Frameworks & APIs** | • | Qt, JavaFX, Spring Boot, Flask, FastAPI, REST APIs |
+| **Frontend** | • | HTML, CSS, QSS, Markdown |
+| **Databases** | • | MySQL, SQLite, PostgreSQL, MongoDB |
+| **Testing** | • | PyTest,JUnit, Postman |
 
 ## Experience
 
@@ -39,10 +36,18 @@ You can find out more about it's development in the [Projects]() page.
 - Provided technical support and directed to internal help desk
 - Ensured adherence to center policies and secured the facility after hours
 
+## Projects
+
+### OpenSky · Weather forecast desktop application
+Developed with Python, PyQt6, and QSS, with OpenWeatherMap API integration.
+
+[View project details]({{ '/projects/' | relative_url }}) · [See my code on GitHub](https://github.com/8Bitsian)
+
 ## Education
 
 ### Associate of Applied Science, Computer Programming
 Gwinnett Technical College • Jan 2023 - Jan 2026
+
 - Phi Class Student Ambassador
 - Treasurer, Game Development & Esports Club
 - Member, Student Government Association
@@ -63,3 +68,7 @@ Brookwood High School • Sep 2018 - May 2021
 - Vulnerability Management Detection and Response Foundation Certificate
 - Policy Compliance Certificate
 - Endpoint Detection and Response Foundation Certificate
+
+## Get in touch
+
+Interested in discussing a role or my projects? [Email me](mailto:8BitSoftware@gmail.com) or visit my [contact page]({{ '/contact/' | relative_url }}).
