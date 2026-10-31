@@ -1,28 +1,31 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <link rel="icon" href="{{ '/assets/img/favicon.ico' | relative_url }}">
-    <link rel="stylesheet" href="{{ site.stylesheet | relative_url }}">
-    {% if page.layout == "blog" %}
-      <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
-    {% elif page.layout == "resume" %}
-      <link rel="stylesheet" href="{{ '/assets/css/resume.css' | relative_url }}">
-    {% elif page.layout == "project" %}
-      <link rel="stylesheet" href="{{ '/assets/css/projects.css' | relative_url }}">
-    {% endif %}
-  </head>
-  <body>
-    <nav>
-      {% include nav.html %}
-    </nav>
-    <main>
-      {{ content }}
-    </main>
-    <footer>
-      {% include footer.html %}
-    </footer>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="icon" href="{{ '/assets/img/favicon.ico' | relative_url }}">
+  <link rel="stylesheet" href="{{ site.stylesheet | relative_url }}">
+  {% if page.layout == "blog" %}
+  <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
+  {% elsif page.layout == "resume" %}
+  <link rel="stylesheet" href="{{ '/assets/css/resume.css' | relative_url }}">
+  {% elsif page.layout == "project" %}
+  <link rel="stylesheet" href="{{ '/assets/css/projects.css' | relative_url }}">
+  {% endif %}
+</head>
+
+<body>
+  <nav>
+    {% include nav.html %}
+  </nav>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    {% include footer.html %}
+  </footer>
+</body>
+
 </html>
