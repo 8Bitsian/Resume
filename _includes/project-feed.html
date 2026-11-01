@@ -15,11 +15,11 @@
             </time>
             -
             {% unless project.end_date == blank %}
+              Present
+            {% else %}
               <time datetime="{{ project.end_date | date_to_xmlschema }}">
                 {{ project.end_date | date: "%b %Y" }}
               </time>
-            {% else %}
-              Present
             {% endunless %}
           </p>
           
