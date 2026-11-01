@@ -1,7 +1,11 @@
 <aside class="project-archive" aria-label="Project archive">
   <h2>Projects</h2>
 
-  {% assign projects = site.devlogs | sort: "start_date" | reverse %}
+  {% if site.devlogs %}
+    {% assign projects = site.devlogs | sort: "start_date" | reverse %}
+  {% else %}
+    {% assign projects = null %}
+  {% endif %}
 
   {% if projects.size > 0 %}
     <div class="project-feed-list">
