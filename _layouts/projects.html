@@ -18,21 +18,20 @@ layout: default
             <a href="{{ latest.repo }}">GitHub Repository</a> •
           {% endif %}
 
-          {% if latest.repo %}
-            <time datetime="{{ latest.start_date | date_to_xmlschema }}">
-              {{latest.start_date | date: "%b %Y" }}
-            </time>
-          {% endif %}
+          <time datetime="{{ project.start_date | date_to_xmlschema }}">
+            {{ latest.start_date | date: "%b %Y" }}
+          </time>
           -
-          {% unless latest.end_date%}
+          {% unless latest.end_date == blank %}
             Present
           {% else %}
             <time datetime="{{ latest.end_date | date_to_xmlschema }}">
-              {{latest.end-date | date: "%b %Y" }}
+              {{ latest.end_date | date: "%b %Y" }}
             </time>
           {% endunless %}
-
-          {% if latest.location %} • {{ latest.location }}{% endif %}
+          {% if latest.repo %}
+            · <a href="{{ latest.repo }}">View GitHub Repository</a>
+          {% endif %}
         </p>
 
         <p>
