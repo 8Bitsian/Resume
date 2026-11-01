@@ -14,10 +14,6 @@ layout: default
         <h3><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a></h3>
 
         <p class="post-meta">
-          {% if latest.repo %}
-            <a href="{{ latest.repo }}">GitHub Repository</a> •
-          {% endif %}
-
           <time datetime="{{ project.start_date | date_to_xmlschema }}">
             {{ latest.start_date | date: "%b %Y" }}
           </time>
