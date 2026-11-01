@@ -2,11 +2,17 @@
 title: "8BitSoftware"
 heading: "Imani Hollie"
 description: "I code sometimes and talkabout my recent projects."
+
 url: "https://8bitsian.github.io"
-baseruel: "/Resume"
+baseurl: "/Resume"
+
 markdown: kramdown
 stylesheet: /assets/css/styles.css
 
-# Footer Config: Give details about the website.
+collections:
+  devlog:
+    output: true
+    permalink: /projects/:name/
+
 footer:
   copyright: "© 2026 Imani Hollie | Contents under CC-BY-NC"
