@@ -1,8 +1,8 @@
 ---
 layout: project
 title: "Pieces & Play"
-start-date: 2026-10-10
-end-date: ""
+start_date: 2026-10-10
+end_date: ""
 location: "Atlanta, Georgia"
 repo: "https://github.com/8Bitsian/Pieces-and-Play"
 description: "A compilation of classic board games built with GDScript using the GoDot Engine."
