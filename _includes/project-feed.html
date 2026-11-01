@@ -15,9 +15,9 @@
           {{ project.start_date | date: "%b %Y" }}
         </time>
         {% if project.end_date %}
-        – {{ project.end_date | date: "%b %Y" }}
+          – {{ project.end_date | date: "%b %Y" }}
         {% else %}
-        – Present
+          – Present
         {% endif %}
         {% if project.repo %}
       <p><a href="{{ project.repo }}">· View GitHub Repository</a></p>

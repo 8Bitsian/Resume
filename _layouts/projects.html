@@ -23,11 +23,11 @@ layout: default
         </time>
 
         {% if latest.end_date%}
-        – <time datetime="{{ latest.end_date | date_to_xmlschema }}">
-          {{latest.end-date | end-date: "%b %Y" }}
-        </time>
+          – <time datetime="{{ latest.end_date | date_to_xmlschema }}">
+            {{latest.end-date | end-date: "%b %Y" }}
+          </time>
         {% else %}
-        – Present
+          – Present
         {% endif %}
 
         {% if latest.location %} • {{ latest.location }}{% endif %}
