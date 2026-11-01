@@ -8,28 +8,28 @@ layout: default
     <h2>Latest Post</h2>
     {% assign latest = site.posts | first %}
     {% if latest %}
-    <article class="latest-post-card">
-      <h3><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a></h3>
+      <article class="latest-post-card">
+        <h3><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a></h3>
 
-      <p class="post-meta">
-        <time datetime="{{ latest.date | date_to_xmlschema }}">
-          {{latest.date | date: "%A, %B %-d, %Y" }}
-        </time>
-        {% if latest.location %} • {{ latest.location }}{% endif %}
-      </p>
+        <p class="post-meta">
+          <time datetime="{{ latest.date | date_to_xmlschema }}">
+            {{latest.date | date: "%A, %B %-d, %Y" }}
+          </time>
+          {% if latest.location %} • {{ latest.location }}{% endif %}
+        </p>
 
-      <p>{{ latest.description | default: latest.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
+        <p>{{ latest.description | default: latest.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
 
-      {% if latest.tags.size > 0 %}
-      <p class="post-tags">
-        {% for tag in latest.tags %}
-        <span>#{{ tag | replace: "_", " " }}</span>{% unless forloop.last %}, {% endunless %}
-        {% endfor %}
-      </p>
-      {% endif %}
-    </article>
+        {% if latest.tags.size > 0 %}
+          <p class="post-tags">
+            {% for tag in latest.tags %}
+              <span>#{{ tag | replace: "_", " " }}</span>{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          </p>
+        {% endif %}
+      </article>
     {% else %}
-    <p>No posts yet. Check back soon.</p>
+      <p>No posts yet. Check back soon.</p>
     {% endif %}
   </section>
 
