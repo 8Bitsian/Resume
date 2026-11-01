@@ -6,50 +6,47 @@ layout: default
     <h1>{{ page.title }}</h1>
     <h2>Latest Devlog</h2>
 
-    {% if site.devlogs %}
-      {% assign projects = site.devlogs | sort: "start_date" | reverse %}
-    {% else %}
-      {% assign projects = null %}
-    {% endif %}
-
+    {% assign projects = site.devlog | default: empty | sort: "start_date" | reverse %}
     {% assign latest = projects | first %}
 
     {% if latest %}
-    <article class="latest-devlog-card">
-      <h3><a href="{{ latest.url | relative_url }}">{{ latest.title }} • {{ latest.desc }}</a></h3>
+      <article class="latest-devlog-card">
+        <h3><a href="{{ latest.url | relative_url }}">{{ latest.title }} • {{ latest.desc }}</a></h3>
 
-      <p class="post-meta">
-        {% if latest.repo %}
-          <a href="{{ latest.repo }}">GitHub Repository</a> •
-        {% endif %}
+        <p class="post-meta">
+          {% if latest.repo %}
+            <a href="{{ latest.repo }}">GitHub Repository</a> •
+          {% endif %}
 
-        <time datetime="{{ latest.start_date | date_to_xmlschema }}">
-          {{latest.start-date | start-date: "%b %Y" }}
-        </time>
+          {% if latest.repo %}
+            <time datetime="{{ latest.start_date | date_to_xmlschema }}">
+              {{latest.start_date | date: "%b %Y" }}
+            </time>
+          {% endif %}
+          -
+          {% unless latest.end_date%}
+            Present
+          {% else %}
+            <time datetime="{{ latest.end_date | date_to_xmlschema }}">
+              {{latest.end-date | date: "%b %Y" }}
+            </time>
+          {% endunless %}
 
-        {% if latest.end_date%}
-          – <time datetime="{{ latest.end_date | date_to_xmlschema }}">
-            {{latest.end-date | end-date: "%b %Y" }}
-          </time>
-        {% else %}
-          – Present
-        {% endif %}
-
-        {% if latest.location %} • {{ latest.location }}{% endif %}
-      </p>
-
-      <p>
-        {{ latest.description | default: latest.excerpt | strip_html | strip_newlines | truncate: 200 }}
-      </p>
-
-      {% if latest.tags.size > 0 %}
-        <p class="post-tags">
-          {% for tag in latest.tags %}
-            <span>#{{ tag | replace: "_", " " }}</span>{% unless forloop.last %}, {% endunless %}
-          {% endfor %}
+          {% if latest.location %} • {{ latest.location }}{% endif %}
         </p>
-      {% endif %}
-    </article>
+
+        <p>
+          {{ latest.description | default: latest.excerpt | strip_html | strip_newlines | truncate: 200 }}
+        </p>
+
+        {% if latest.tags.size > 0 %}
+          <p class="post-tags">
+            {% for tag in latest.tags %}
+              <span>#{{ tag }}</span>{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          </p>
+        {% endif %}
+      </article>
     {% else %}
       <p>No posts yet. Check back soon.</p>
     {% endif %}
@@ -57,4 +54,3 @@ layout: default
 
   {% include project-feed.html %}
 </article>
-
