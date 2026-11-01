@@ -11,7 +11,7 @@ layout: default
 
     {% if latest %}
       <article class="latest-devlog-card">
-        <h3><a href="{{ latest.url | relative_url }}">{{ latest.title }} • {{ latest.desc }}</a></h3>
+        <h3><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a></h3>
 
         <p class="post-meta">
           {% if latest.repo %}
