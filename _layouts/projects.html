@@ -6,7 +6,12 @@ layout: default
     <h1>{{ page.title }}</h1>
     <h2>Latest Devlog</h2>
 
-    {% assign projects = site.devlogs | sort: "start_date" | reverse %}
+    {% if site.devlogs %}
+      {% assign projects = site.devlogs | sort: "start_date" | reverse %}
+    {% else %}
+      {% assign projects = null %}
+    {% endif %}
+
     {% assign latest = projects | first %}
 
     {% if latest %}
