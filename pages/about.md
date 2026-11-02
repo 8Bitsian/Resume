@@ -17,8 +17,8 @@ As a full-stack developer, I'd like to contribute to products that are useful, s
 I'm interested in work involving Python, C++, Java, APIs, databases, web application, etc.
 
 ## Developer Philosophy
-> “I like my code to be elegant and efficient. The logic should be straightforward to make it hard for bugs to hide, the dependencies minimal to ease maintenance, error handling complete according to an articulated strategy, and performance close to optimal so as not to tempt people to make the code messy with unprincipled optimizations. Clean code does one thing well.
-> - Bjarne Stroustrup, inventor of C++ and author of _The C++ Programming Language_"
+> “I like my code to be elegant and efficient. The logic should be straightforward to make it hard for bugs to hide, the dependencies minimal to ease maintenance, error handling complete according to an articulated strategy, and performance close to optimal so as not to tempt people to make the code messy with unprincipled optimizations. Clean code does one thing well."
+> - Bjarne Stroustrup, inventor of C++ and author of _The C++ Programming Language_
 
 I believe good software starts with understanding the problem from an end user's perspective.
 From there, I aim for solutions that are simple, clear, and no more complicated than they need to be.
@@ -26,12 +26,3 @@ A good program is recognizable by its simplicity.
 
 Software development, is ultimately a team effort.
 Because code is read and maintained long after it is written, I value clear naming, straightforward logic, and designs that are easy for others to understand and build on.
-
-## Projects I’m Proud Of
-**OpenSky** — A desktop weather forcast application built using Python and PyQt6
-It integrates with the OpenWeatherMap API to retrieve and display weather information, with CSS used to style the interface.
-
-[View more of my projects.](https://example.com)
-
-## Get in Touch
-[Email](mailto:you@example.com) · [GitHub](https://github.com/your-username) · [LinkedIn](https://linkedin.com/in/your-profile)

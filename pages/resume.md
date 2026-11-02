@@ -34,13 +34,6 @@ I am most comfortable using the JetBrains Suite in Python, Java, and C++. I use 
 - Provided technical support and directed to internal help desk
 - Ensured adherence to center policies and secured the facility after hours
 
-## Projects
-
-### OpenSky · Weather forecast desktop application
-Developed with Python, PyQt6, and QSS, with OpenWeatherMap API integration.
-
-[View project details]({{ '/projects/' | relative_url }}) · [See my code on GitHub](https://github.com/8Bitsian)
-
 ## Education
 
 ### Associate of Applied Science, Computer Programming
@@ -66,9 +59,3 @@ Brookwood High School • Sep 2018 - May 2021
 - Vulnerability Management Detection and Response Foundation Certificate
 - Policy Compliance Certificate
 - Endpoint Detection and Response Foundation Certificate
-
-## Get in touch
-
-Interested in discussing a role or my projects?
-
-[Email me](mailto:8BitSoftware@gmail.com) or visit my [contact page]({{ '/contact/' | relative_url }}).
