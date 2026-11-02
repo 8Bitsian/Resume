@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: devlog
 title: "Pieces & Play"
 start_date: 2026-10-10
 end_date: ""
