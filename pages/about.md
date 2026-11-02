@@ -5,17 +5,33 @@ permalink: /about/
 ---
 
 # About Me
-I’m a software developer focused on [area, such as web applications or backend services]. I enjoy building [kind of product or problem] and am currently looking for [type of role or opportunity].
+I'm a software developer interested in building practical, maintainable software.
+I enjoy working across the stack - from designing user-facing features to intgrating APIs and building the services building them.
+I'm currently seeking a full-stack developer role where I can contribute to thoughful products and keep growing as an engineer.
 
-## How I Work
-I like to understand the problem before choosing a solution. I value readable code, thoughtful testing, and clear communication. [Add a concrete example that reflects your actual experience.]
+## Software Development Focus
+I'm especially interested in alternatives to traditional software-as-a-service (SaaS): open-source, self-hostable, and user-controllable software.
+I'm drawn to projects that give people more ownership over their tools, data, and infrastructure.
 
-## A Project I’m Proud Of
-**Project name** — I built [what it does] using [technologies]. My contribution was [your role or a specific feature].  
-[View the project](https://example.com)
+As a full-stack developer, I'd like to contribute to products that are useful, sustainable, adn built with their users in mind.
+I'm interested in work involving Python, C++, Java, APIs, databases, web application, etc.
 
-## What I’m Looking For
-I’m interested in [role, team, or product area] where I can contribute to [what you want to do] and keep growing in [skill or area].
+## Developer Philosophy
+> “I like my code to be elegant and efficient. The logic should be straightforward to make it hard for bugs to hide, the dependencies minimal to ease maintenance, error handling complete according to an articulated strategy, and performance close to optimal so as not to tempt people to make the code messy with unprincipled optimizations. Clean code does one thing well.
+> - Bjarne Stroustrup, inventor of C++ and author of _The C++ Programming Language_"
+
+I believe good software starts with understanding the problem from an end user's perspective.
+From there, I aim for solutions that are simple, clear, and no more complicated than they need to be.
+A good program is recognizable by its simplicity.
+
+Software development, is ultimately a team effort.
+Because code is read and maintained long after it is written, I value clear naming, straightforward logic, and designs that are easy for others to understand and build on.
+
+## Projects I’m Proud Of
+**OpenSky** — A desktop weather forcast application built using Python and PyQt6
+It integrates with the OpenWeatherMap API to retrieve and display weather information, with CSS used to style the interface.
+
+[View more of my projects.](https://example.com)
 
 ## Get in Touch
 [Email](mailto:you@example.com) · [GitHub](https://github.com/your-username) · [LinkedIn](https://linkedin.com/in/your-profile)
