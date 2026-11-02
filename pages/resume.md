@@ -5,9 +5,7 @@ permalink: /resume/
 ---
 
 # Imani Hollie
-**Full Stack Jr. Software Developer** • Atlanta, Georgia • <a class="cv-download" href="{{ '/assets/files/temp.txt' | relative_url }}"> Download CV (PDF)</a>
-
-<a class="cv-download" href="{{ '/assets/files/temp.txt' | relative_url }}"> Download CV (PDF)</a>
+**Full Stack Jr. Software Developer** • Atlanta, Georgia · <a class="cv-download" href="{{ '/assets/files/temp.txt' | relative_url }}"> Download CV (PDF)</a>
 
 [Email](mailto:8BitSoftware@gmail.com) · [LinkedIn](https://www.linkedin.com/in/imani-hollie/) · [GitHub](https://github.com/8Bitsian) · [Stack Overflow](https://stackoverflow.com/users/32219858/8bitsoftware)
 
@@ -17,15 +15,15 @@ Early-career software developer with experience building desktop applications an
 ## Skills
 I am most comfortable using the JetBrains Suite in Python, Java, and C++. I use Git and GitHub for version control and am comfortable working in both Linux and Windows development environments.
 
-| Area | • | Technologies |
+| Area |  •  | Technologies |
 | ---: | :---: | :--- |
-| **Environments** | • | Linux, Windows, UNIX Shell, PowerShell |
-| **Tools** | • | Git, GitHub, Geany, Visual Studio Code, JetBrains Suite |
-| **Languages** | • | Python, Java, JavaScript, PHP, Rust, C++, C# |
-| **Frameworks & APIs** | • | Qt, JavaFX, Spring Boot, Flask, FastAPI, REST APIs |
-| **Frontend** | • | HTML, CSS, QSS, Markdown |
-| **Databases** | • | MySQL, SQLite, PostgreSQL, MongoDB |
-| **Testing** | • | PyTest,JUnit, Postman |
+| **Environments** |  •  | Linux, Windows, UNIX Shell, PowerShell |
+| **Tools** |  •  | Git, GitHub, Geany, Visual Studio Code, JetBrains Suite |
+| **Languages** |  •  | Python, Java, JavaScript, PHP, Rust, C++, C# |
+| **Frameworks & APIs** |  •  | Qt, JavaFX, Spring Boot, Flask, FastAPI, REST APIs |
+| **Frontend** |  •  | HTML, CSS, QSS, Markdown |
+| **Databases** |  •  | MySQL, SQLite, PostgreSQL, MongoDB |
+| **Testing** |  •  | PyTest,JUnit, Postman |
 
 ## Experience
 
@@ -71,4 +69,6 @@ Brookwood High School • Sep 2018 - May 2021
 
 ## Get in touch
 
-Interested in discussing a role or my projects? [Email me](mailto:8BitSoftware@gmail.com) or visit my [contact page]({{ '/contact/' | relative_url }}).
+Interested in discussing a role or my projects?
+
+[Email me](mailto:8BitSoftware@gmail.com) or visit my [contact page]({{ '/contact/' | relative_url }}).
