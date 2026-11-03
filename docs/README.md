@@ -7,7 +7,7 @@
 
 # Resume Website
 I needed to create a website for my resume to showcase my front end web development skills and to have a centralized place to display all of my projects.
-> [![my-website][GitHubIO]](https://8bitsian.github.io/)
+> [![my-website][GitHubIO]](https://8bitsian.github.io/Resume)
 [![stack-overflow][Stack]](https://stackoverflow.com/users/32219858/8bitsian)
 [![bluesky][BlueSky]](https://bsky.app/profile/8bitsoftware.bsky.social)
 [![twitch][Twitch]](https://www.twitch.tv/8bitsoftware)
