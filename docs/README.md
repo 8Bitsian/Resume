@@ -27,11 +27,12 @@ I needed to create a website for my resume to showcase my front end web developm
 [![VSCodium Badge][VSCodium]](https://vscodium.com/)
 [![Obsidian Badge][Obsidian]](https://obsidian.md/)
 
-> 👩🏽‍💻 My front-end technologies include HTML, CSS, JavaScript, and React.<br/><br/>
+> 👩🏽‍💻 My front-end technologies include HTML, CSS, and JavaScript.<br/><br/>
+> ![Total Languages Badge][Total_Lang]
+![Top Language Badge][Top_Lang]<br/>
 > [![HTML_Badge][HTML]](https://html.spec.whatwg.org/multipage/)
 [![CSS_Badge][CSS]](https://www.w3.org/Style/CSS/)
-[![JavaScript_Badge][JS]](https://ecma-international.org/publications-and-standards/standards/ecma-262/)
-[![React_Badge][React]](https://react.dev/versions)<br/>
+[![JavaScript_Badge][JS]](https://ecma-international.org/publications-and-standards/standards/ecma-262/)<br/>
 
 <!-- Social Media -->
 [GitHubIO]: https://img.shields.io/badge/My_Website-2026?logo=firefoxbrowser&logoColor=%23f6f4f0&labelColor=%238c52ff&color=%23ffde59
@@ -56,7 +57,8 @@ I needed to create a website for my resume to showcase my front end web developm
 [Obsidian]: https://img.shields.io/badge/Obsidian-2026?logo=obsidian&logoColor=FFFFF0&labelColor=8C52FF&color=FFDE59
 
 <!-- Programming Languages -->
+[Total_Lang]: https://custom-icon-badges.demolab.com/github/languages/count/8Bitsian/Resume?style=flat&logo=code-square&logoColor=FFFFF0&label=Total%20Languages&labelColor=8C52FF&color=FFDE59
+[Top_Lang]: https://custom-icon-badges.demolab.com/github/languages/top/8Bitsian/Resume?style=flat&logo=code-square&logoColor=FFFFF0&label=Top%20Language&labelColor=8C52FF&color=FFDE59
 [HTML]: https://img.shields.io/badge/HTML5-2026?logo=html5&logoColor=%23f6f4f0&labelColor=%238c52ff&color=%23ffde59
 [CSS]: https://img.shields.io/badge/CSS-2026?logo=css&logoColor=%23f6f4f0&labelColor=%238c52ff&color=%23ffde59
 [JS]: https://img.shields.io/badge/JavaScript-2026?logo=javascript&logoColor=%23f6f4f0&labelColor=%238c52ff&color=%23ffde59
-[React]: https://img.shields.io/badge/React-2026?logo=react&logoColor=%23f6f4f0&labelColor=%238c52ff&color=%23ffde59
