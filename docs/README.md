@@ -3,7 +3,7 @@
 <!-- Get logos from https://simpleicons.org/ | https://primer.style/octicons/ | https://feathericons.com/ -->
 <!-- Get custom badges from https://custom-icon-badges.demolab.com/ | Start link with: https://custom-icon-badges.demolab.com/badge/ -->
 
-[![Banner](./images/Banner.png)](https://8bitsian.github.io/Resume)
+[![Banner](/images/Banner.png)](https://8bitsian.github.io/)
 
 # Resume Website
 I needed to create a website for my resume to showcase my front end web development skills and to have a centralized place to display all of my projects.
