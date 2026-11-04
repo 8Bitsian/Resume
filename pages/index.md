@@ -16,7 +16,7 @@ This site is a place to explore what I'm currently working on, read my technical
 Here’s a project I’m currently working on. Visit the [projects page]({{ '/projects/' | relative_url }}) to explore more of my work and the details behind it.
 
 <!-- Add a project title, a one-sentence description, and a link here. -->
-{% include project-feed.html limit-3 %}
+{% include project-feed.html limit=3 %}
 
 [see all projects]({{ '/projects/' | relative_url }})
 
