@@ -16,7 +16,7 @@ This site is a place to explore what I'm currently working on, read my technical
 Here’s a project I’m currently working on. Visit the [projects page]({{ '/projects/' | relative_url }}) to explore more of my work and the details behind it.
 
 <!-- Add a project title, a one-sentence description, and a link here. -->
-{% include project-feed.html limit=3 %}
+{% include project-feed.html limit=1 %}
 
 [see all projects]({{ '/projects/' | relative_url }})
 
@@ -25,7 +25,7 @@ Here’s a project I’m currently working on. Visit the [projects page]({{ '/pr
 I share technical writing about topics I’m learning and building with. Here’s my latest article; you can find the rest in the [article archive]({{ '/blog/' | relative_url }}).
 
 <!-- Add an article title, a short description, and a link here. -->
-{% include blog-feed.html limit=3 %}
+{% include blog-feed.html limit=1 %}
 
 [Read all articles]({{ '/blog/' | relative_url }})
 
