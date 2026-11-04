@@ -7,13 +7,23 @@ permalink: /
 # Imani Hollie
 **Full Stack Software Developer** • Atlanta, Georgia
 
-I build practical, user-focused applications with Python, Java, and C++ while continuing to learn new technologies and grow as a developer. Explore my projects, reach my technical writing, or get in touch for collaboration opportunities.
+I enjoy working across the stack - from application logic to UX/UI - to build practical, user-first applications. My current toolkit includes **Python, Java, and C++**. I’m always open to learning new technologies and approaches for what a project needs and to grow as a developer. This site is a place to explore what I’m working on, read my technical writing, and find the best way to connect with me for collaboration opportunities.
 
 ## Featured Projects
-Here is the latest project that I am currently working on. Feel free to browse all of my work with the [projects]({{ '/blog/' | relative_url }}) page.
+
+Here’s a project I’m currently working on. Visit the [projects page]({{ '/projects/' | relative_url }}) to explore more of my work and the details behind it.
+
+<!-- Add a project title, a one-sentence description, and a link here. -->
 
 ## Featured Articles
-Here is my latest technical writing I posted to this website. You can see the rest of the archive with the [articles]({{ '/blog/' | relative_url }}) page.
+
+I share technical writing about topics I’m learning and building with. Here’s my latest article; you can find the rest in the [article archive]({{ '/blog/' | relative_url }}).
+
+<!-- Add an article title, a short description, and a link here. -->
 
 ## Let's Connect
-Interest in my work or want to discuss an opportunity? [Get in touch]({{ '/contact/' | relative_url }}).
+Want to learn more about me or are interested in my work and want to discuss and opportunity?
+
+Get in touch by visiting the [Contact page]({{ '/contact/' | relative_url }}).
+
+Visit the [About page]({{ '/about/' | relative_url }}) for a little more about me, browse my [résumé]({{ '/resume/' | relative_url }}), or head straight to my [projects]({{ '/projects/' | relative_url }}).
