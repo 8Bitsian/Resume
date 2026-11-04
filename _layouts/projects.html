@@ -17,14 +17,14 @@ layout: default
           <time datetime="{{ latest.start_date | date_to_xmlschema }}">
             {{ latest.start_date | date: "%b %Y" }}
           </time>
-          -
-          {% unless latest.end_date == blank %}
-            Present
+          {% if latest.end_date == blank %}
+            - Present
           {% else %}
+            -
             <time datetime="{{ latest.end_date | date_to_xmlschema }}">
               {{ latest.end_date | date: "%b %Y" }}
             </time>
-          {% endunless %}
+          {% endif %}
           {% if latest.repo %}
             · <a href="{{ latest.repo }}">View GitHub Repository</a>
           {% endif %}

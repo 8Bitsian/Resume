@@ -5,7 +5,7 @@ permalink: /resume/
 ---
 
 # Imani Hollie
-**Full Stack Jr. Software Developer** • Atlanta, Georgia · <a href="{{ '/assets/files/temp.txt' | relative_url }}" download="TEMP.txt">Download CV (PDF)</a>
+**Full Stack Jr. Software Developer** • Atlanta, Georgia · <a class="cv-download" href="{{ '/assets/files/temp.txt' | relative_url }}" download="TEMP.txt">Download Resume</a>
 
 [Email](mailto:8BitSoftware@gmail.com) · [LinkedIn](https://www.linkedin.com/in/imani-hollie/) · [GitHub](https://github.com/8Bitsian) · [Stack Overflow](https://stackoverflow.com/users/32219858/8bitsoftware)
 

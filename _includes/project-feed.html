@@ -1,7 +1,6 @@
 <aside class="project-archive" aria-label="Project archive">
   <h2>Project Archive</h2>
 
-  {% assign sorted_projects = site.devlog | sort: "start_date" | reverse %}
   {% assign projects = site.devlog | sort: "start_date" | reverse %}
 
   {% if projects.size > 0 %}
@@ -14,14 +13,14 @@
             <time datetime="{{ project.start_date | date_to_xmlschema }}">
               {{ project.start_date | date: "%b %Y" }}
             </time>
-            -
-            {% unless project.end_date == blank %}
-              Present
+            {% if project.end_date == blank %}
+              - Present
             {% else %}
+              -
               <time datetime="{{ project.end_date | date_to_xmlschema }}">
                 {{ project.end_date | date: "%b %Y" }}
               </time>
-            {% endunless %}
+            {% endif %}
             {% if project.repo %}
               · <a href="{{ project.repo }}">View GitHub Repository</a>
             {% endif %}
