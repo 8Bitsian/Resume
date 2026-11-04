@@ -9,7 +9,7 @@ permalink: /
 
 I enjoy working across the stack - from application logic to UX/UI - to build practical, user-focused applications. My current toolkit includes **Python, Java, and C++**. I’m always open to learning new technologies and approaches to meet a project needs and continue growing as a developer.
 
-This site is a place to explore what I'm currently working on, read my technical writing, and find ways to connect to collaborate opportunities. Visit the [About page]({{ '/about/' | relative_url }}) to get to know me, browse my [résumé]({{ '/resume/' | relative_url }}), or head straight to my [projects]({{ '/projects/' | relative_url }}).
+This site is a place to explore what I'm currently working on, read my technical writing, and find ways to connect to collaborate opportunities.
 
 ## Featured Projects
 
@@ -25,5 +25,7 @@ I share technical writing about topics I’m learning and building with. Here’
 
 ## Let's Connect
 Want to learn more about me or are interested in my work and want to discuss and opportunity?
+
+To get to know more about me visit the [About page]({{ '/about/' | relative_url }}).
 
 Get in touch by visiting the [Contact page]({{ '/contact/' | relative_url }}).
