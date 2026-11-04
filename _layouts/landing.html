@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<article class="landing-layout">
+  <section class="landing-intro">
+    {{ content }}
+  </section>
+
+  <section class="featued-project">
+    <h2>Featured Projects</h2>
+    <p>Visit the <a href="{{ '/projects/' | relative_url }}">projects page</a> to explore more of my work.</p>
+
+    {% include project-feed.html limit=1 %}
+  </section>
+
+  <section class="featued-article">
+    <h2>Featured Articles</h2>
+    <p>Visit the <a href="{{ '/blog/' | relative_url }}">blog page</a> to read more technicla writings about topics I'm learning and my experiences with technology.</p>
+
+    {% include blog-feed.html limit=1 %}
+  </section>
+
+  <section class="landing-contact">
+    <h2>Get Connected</h2>
+    <p>
+      Want to learn more about me or discuss an opportunity?
+      Visit the <a href="{{ '/about/' | relative_url }}">About page</a>
+      or <a href="{{ '/contact/' | relative_url }}">get in touch</a>.
+    </p>
+  </section>
+</article>
